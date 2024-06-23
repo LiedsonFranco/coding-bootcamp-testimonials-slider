@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-size: 18px;
+
+}
+body{
+    background-image: url(images/pattern-bg.svg), url(images/pattern-curve.svg);
+    font-family: "Inter", sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px 25px, 0 95vh;
+    text-align: center;
+    overflow: hidden;
+}
+main{
+    margin-top: 55px;
+}
+p{
+    color:hsl(240, 18%, 77%);
+    font-weight: 500;
+}
+h1{
+    color: hsl(240, 38%, 20%);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+}
+img{
+    width: 85%;
+    box-shadow: -10px 30px 100px hsl(240, 18%, 77%);
+    border-radius: 20px;
+}
+.hidden{
+    display: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+.sliders{
+    background-color: white;
+    padding: 10px 3px;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+}
+.sliders button{
+    margin: 0 5px;
+}
+.sliders button:hover{
+    cursor: pointer;
+}
+.text{
+    margin: 80px auto;
+    width: 90%;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
